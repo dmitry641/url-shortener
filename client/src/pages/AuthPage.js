@@ -53,6 +53,7 @@ export default function AuthPage() {
                   id="email"
                   type="email"
                   name="email"
+                  value={form.email}
                   className="yellow-input"
                   onChange={changeHandler}
                 />
@@ -65,6 +66,7 @@ export default function AuthPage() {
                   id="password"
                   type="password"
                   name="password"
+                  value={form.password}
                   className="yellow-input"
                   onChange={changeHandler}
                 />
